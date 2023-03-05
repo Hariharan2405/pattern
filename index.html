@@ -1,0 +1,43 @@
+<!DocType html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="operators">
+		<meta name="keywords" content="HTML,JavaScript">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Pattern</title>
+	
+	
+	</head>
+	
+	<body>
+		<script>
+			let num=parseInt(prompt("Enter a value"));
+			function pat1(num){
+			for(a=1; a<=num; a++){
+				document.write("<br>");
+				for(b=1; b<=a; b++){
+					document.write(a);
+					
+				}
+			}
+			}
+			
+
+
+			//let num=parseInt(prompt("Enter a number"));
+			function pat2(num){
+			for(x=0; x<=num+x; x++){
+				document.write("<br>");
+				num--;
+				for(y=1; y<=num+1; y++){
+					document.write(y);
+					
+				}
+			}
+			}
+			pat1(num);
+			pat2(num);
+		</script>
+	</body>
+</html>
